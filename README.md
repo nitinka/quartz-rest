@@ -38,21 +38,21 @@ config/schedulerConfigs/quartz-1.properties
 3) Start quartz-rest : <b>mvn clean compile exec:java</b><br>
 You would see following rest end point to interface with your quartz deployment : <br>
 <pre>
-DELETE  /quartz-interface/jobs (nitinka.quartzrest.resource.JobSchedulingResource)
-    DELETE  /quartz-interface/jobs/{group}.{name} (nitinka.quartzrest.resource.JobSchedulingResource)
-    GET     /quartz-interface/jobs (nitinka.quartzrest.resource.JobSchedulingResource)
-    GET     /quartz-interface/jobs/{group}.{name} (nitinka.quartzrest.resource.JobSchedulingResource)
-    GET     /quartz-interface/jobs/{group}.{name}/triggers (nitinka.quartzrest.resource.JobSchedulingResource)
-    GET     /quartz-interface/jobs/{jobGroup}.{jobName}/triggers/{triggerGroup}.{triggerName} (nitinka.quartzrest.resource.JobSchedulingResource)
-    POST    /quartz-interface/jobs (nitinka.quartzrest.resource.JobSchedulingResource)
-    POST    /quartz-interface/jobs/{group}.{name}/triggers (nitinka.quartzrest.resource.JobSchedulingResource)
-    PUT     /quartz-interface/jobs/{jobGroup}.{jobName}/triggers/{triggerGroup}.{triggerName}/unSchedule (nitinka.quartzrest.resource.JobSchedulingResource)
-    GET     /quartz-interface/schedulers (nitinka.quartzrest.resource.SchedulerResource)
-    GET     /quartz-interface/schedulers/{schedulerName} (nitinka.quartzrest.resource.SchedulerResource)
-    PUT     /quartz-interface/schedulers/{schedulerName}/defaultScheduler (nitinka.quartzrest.resource.SchedulerResource)
-    PUT     /quartz-interface/schedulers/{schedulerName}/shutdown (nitinka.quartzrest.resource.SchedulerResource)
-    PUT     /quartz-interface/schedulers/{schedulerName}/standby (nitinka.quartzrest.resource.SchedulerResource)
-    PUT     /quartz-interface/schedulers/{schedulerName}/start (nitinka.quartzrest.resource.SchedulerResource)
-    GET     /quartz-interface/triggers/{group}.{name} (nitinka.quartzrest.resource.TriggerResource)
-    GET     /quartz-interface/triggers/{group}.{name}/job (nitinka.quartzrest.resource.TriggerResource)
+    DELETE  /quartz-interface/jobs
+    DELETE  /quartz-interface/jobs/{group}.{name}
+    GET     /quartz-interface/jobs
+    GET     /quartz-interface/jobs/{group}.{name}
+    GET     /quartz-interface/jobs/{group}.{name}/triggers
+    GET     /quartz-interface/jobs/{jobGroup}.{jobName}/triggers/{triggerGroup}.{triggerName}
+    POST    /quartz-interface/jobs
+    POST    /quartz-interface/jobs/{group}.{name}/triggers
+    PUT     /quartz-interface/jobs/{jobGroup}.{jobName}/triggers/{triggerGroup}.{triggerName}/unSchedule
+    GET     /quartz-interface/schedulers
+    GET     /quartz-interface/schedulers/{schedulerName}
+    PUT     /quartz-interface/schedulers/{schedulerName}/defaultScheduler
+    PUT     /quartz-interface/schedulers/{schedulerName}/shutdown
+    PUT     /quartz-interface/schedulers/{schedulerName}/standby
+    PUT     /quartz-interface/schedulers/{schedulerName}/start
+    GET     /quartz-interface/triggers/{group}.{name}
+    GET     /quartz-interface/triggers/{group}.{name}/job
 </pre>
