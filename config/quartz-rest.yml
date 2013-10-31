@@ -1,0 +1,10 @@
+http:
+  port: 9999
+  adminPort: 9991
+  rootPath: "/quartz-interface/*"
+schedulerConfigsFolder: "./config/schedulerConfigs"
+
+jMetricConfig:
+  archivalEngineClass: "nitinka.jmetrics.archive.RRD4JArchivingEngine"
+  configParams:
+    basePath: "/var/log/quartz-rest/systemStats"

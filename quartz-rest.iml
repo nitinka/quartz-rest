@@ -65,6 +65,12 @@
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz-oracle:2.1.7" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz-weblogic:2.1.7" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz-jboss:2.1.7" level="project" />
+    <orderEntry type="library" name="Maven: nitinka.jmetrics:JMetrics:0.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.rrd4j:rrd4j:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.9.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.1" level="project" />
   </component>
 </module>
 
